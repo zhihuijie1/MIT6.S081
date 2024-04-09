@@ -63,6 +63,13 @@ build CMakeFiles/MIT6_S081.dir/lab1/pingpong.c.obj: C_COMPILER__MIT6_S081_unscan
   OBJECT_DIR = CMakeFiles\MIT6_S081.dir
   OBJECT_FILE_DIR = CMakeFiles\MIT6_S081.dir\lab1
 
+build CMakeFiles/MIT6_S081.dir/lab1/primes.c.obj: C_COMPILER__MIT6_S081_unscanned_Debug E$:/github/MIT6.S081/lab1/primes.c || cmake_object_order_depends_target_MIT6_S081
+  DEP_FILE = CMakeFiles\MIT6_S081.dir\lab1\primes.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/github/MIT6.S081/. -IE:/github/MIT6.S081/lab1
+  OBJECT_DIR = CMakeFiles\MIT6_S081.dir
+  OBJECT_FILE_DIR = CMakeFiles\MIT6_S081.dir\lab1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target MIT6_S081
@@ -71,7 +78,7 @@ build CMakeFiles/MIT6_S081.dir/lab1/pingpong.c.obj: C_COMPILER__MIT6_S081_unscan
 #############################################
 # Link the executable MIT6_S081.exe
 
-build MIT6_S081.exe: C_EXECUTABLE_LINKER__MIT6_S081_Debug CMakeFiles/MIT6_S081.dir/lab1/sleep.c.obj CMakeFiles/MIT6_S081.dir/lab1/pingpong.c.obj
+build MIT6_S081.exe: C_EXECUTABLE_LINKER__MIT6_S081_Debug CMakeFiles/MIT6_S081.dir/lab1/sleep.c.obj CMakeFiles/MIT6_S081.dir/lab1/pingpong.c.obj CMakeFiles/MIT6_S081.dir/lab1/primes.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MIT6_S081.dir

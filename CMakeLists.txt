@@ -9,4 +9,5 @@ include_directories(lab1)
 add_executable(MIT6_S081
         lab1/sleep.c
         README.md
-        lab1/pingpong.c)
+        lab1/pingpong.c
+        lab1/primes.c)
